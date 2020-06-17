@@ -1,0 +1,241 @@
+body{
+    margin: 0;
+}
+
+footer {
+  font-family: 'Lato', sans-serif;
+}
+
+.main-footer-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding-bottom: 60px;
+    color: #FFF;
+    background: #323E48;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .sub-wrapper {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    justify-content: center;
+    margin: 0;
+    color: #FFF;
+    background: #323E48;
+    font-family: 'Lato', sans-serif;
+  
+  }
+
+  .special-box{
+    display: none;
+  }
+
+  .box h4{
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+
+  .box a {
+    display: block;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 11px;
+  }
+  
+  .main-box {
+    color: whitesmoke;
+    padding-left: 20px;
+    height: 200px;
+  }
+
+  .logo img {
+    margin-top: 40px;
+    margin-left: 50px;
+  }
+
+  .twitter img {
+    margin-top: 65px;
+    margin-left: 50px;
+  }
+
+  .twitter a{
+    text-decoration: none;
+    color: #FFF;
+  }
+
+  .last-footer{
+    background-color: #1F2430;
+    width: 100%;
+    height: 40px;
+  }
+
+  .last-footer ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding-top: 10px;
+  }
+
+  .last-footer a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 12px;
+  }
+
+  .push{
+    margin-left: auto;
+    padding-right: 50px;
+  }
+  
+  @media only screen and (max-width: 769px) {
+      .sub-wrapper {
+        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+      }
+
+      .box {
+        margin-left: 35px;
+      }
+    
+      .logo img {
+        margin-top: 40px;
+        margin-left: 220px;
+      }
+    
+      .twitter img {
+        margin-top: 65px;
+        margin-left: 225px;
+      }
+  }
+
+  @media only screen and (max-width: 425px) {
+  .main-footer-wrapper {
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  }
+
+  .sub-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  }
+
+  .box h4{
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+
+  .box a {
+    display: block;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 11px;
+  }
+  
+  .main-box {
+    color: whitesmoke;
+    padding-left: 20px;
+    height: 200px;
+  }
+
+  .logo img {
+    margin-top: 40px;
+    margin-left: 50px;
+  }
+
+  .twitter img {
+    margin-top: 65px;
+    margin-left: 50px;
+  }
+
+  .twitter a{
+    text-decoration: none;
+    color: #FFF;
+  }
+
+  .last-footer{
+    display: none;
+  }
+
+  .special-box{
+    display: block;
+    margin-left: 35px;
+  }
+
+  .special-box h4{
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+
+  .special-box a {
+    display: block;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 11px;
+  }
+}
+
+@media only screen and (max-width: 325px) {
+  .main-footer-wrapper {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+  .sub-wrapper {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  }
+
+  .box {
+    margin-left: 20px;
+  }
+
+  .special-box {
+    margin-left: 20px;
+  }
+
+  .logo img {
+    margin-top: 40px;
+    margin-left: 10px;
+  }
+
+  .twitter img {
+    margin-top: 65px;
+    margin-left: 15px;
+  }
+}
+
+
+
+  /*@media only screen and (width: 1024px) {
+    .footer-wrapper {
+      display: grid;
+      gap: 10px;
+      grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+      color: #FFF;
+      background: #21273D;
+      font-family: 'Lato', sans-serif;
+    }
+    
+    .foot-box {
+      height: 250px;
+      background-color: #21273D;
+      color: whitesmoke;
+      padding-left: 60px;
+    }
+  }
+
+  */
