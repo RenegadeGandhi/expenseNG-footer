@@ -94,6 +94,33 @@ footer {
     margin-left: auto;
     padding-right: 50px;
   }
+
+
+  @media only screen and (width: 1024px) {
+    .main-footer-wrapper {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+      padding-bottom: 60px;
+      color: #FFF;
+      background: #323E48;
+      font-family: 'Lato', sans-serif;
+    }
+  
+    .sub-wrapper {
+      display: grid;
+      gap: 5px;
+      grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+      justify-content: center;
+      margin: 0;
+      color: #FFF;
+      background: #323E48;
+      font-family: 'Lato', sans-serif;
+    
+    }
+  }
   
   @media only screen and (max-width: 769px) {
       .sub-wrapper {
@@ -206,36 +233,11 @@ footer {
 
   .logo img {
     margin-top: 40px;
-    margin-left: 10px;
+    margin-left: 3px;
   }
 
   .twitter img {
     margin-top: 65px;
-    margin-left: 15px;
+    margin-left: 5px;
   }
 }
-
-
-
-  /*@media only screen and (width: 1024px) {
-    .footer-wrapper {
-      display: grid;
-      gap: 10px;
-      grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-      align-items: center;
-      justify-content: center;
-      margin: 0;
-      color: #FFF;
-      background: #21273D;
-      font-family: 'Lato', sans-serif;
-    }
-    
-    .foot-box {
-      height: 250px;
-      background-color: #21273D;
-      color: whitesmoke;
-      padding-left: 60px;
-    }
-  }
-
-  */
