@@ -24,7 +24,7 @@ footer {
   height: 200px;
 }
 
-.logo img {
+.brand-logo img {
   margin-top: 40px;
   margin-left: 55px;
 }
@@ -121,7 +121,7 @@ footer {
     font-family: 'Lato', sans-serif;
   }
     
-  .logo img {
+  .brand-logo img {
     margin-top: 40px;
     margin-left: 10px;
   }
@@ -191,7 +191,7 @@ footer {
     margin-top: 25px;
   }
 
-  .logo img {
+  .brand-logo img {
     margin-top: 35px;
     margin-left: 50px;
   }
@@ -247,7 +247,7 @@ footer {
     font-size: 15px;
   }
 
-  .logo img {
+  .brand-logo img {
     margin-top: 40px;
     margin-left: 25px;
   }
@@ -271,7 +271,7 @@ footer {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   }
 
-  .logo img {
+  .brand-logo img {
     margin-top: 40px;
     margin-left: 4px;
   }
